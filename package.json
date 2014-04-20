@@ -1,6 +1,6 @@
 {
   "name": "wikipedia-stream",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "lib/wikipediastream.js",
   "description": "Wikipedia updates exposed as a node.js stream",
   "homepage": "http://github.com/arscan/wikpedia-stream",
