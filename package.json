@@ -1,0 +1,40 @@
+{
+  "name": "wikipedia-stream",
+  "version": "0.0.0",
+  "main": "lib/wikipediastream.js",
+  "description": "Wikipedia updates exposed as a node.js stream",
+  "homepage": "http://github.com/arscan/wikpedia-stream",
+  "bugs": "https://github.com/arscan/wikipedia-stream/issues",
+  "author": {
+    "name": "Rob Scanlon",
+    "email": "robscanlon@gmail.com",
+    "url": "http://www.robscanlon.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arscan/wikipedia-stream"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -b test -u tdd  -R spec"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "load-grunt-tasks": "~0.2.0",
+    "mocha": "~1.17.1",
+    "time-grunt": "~0.1.1",
+    "jshint-stylish": "~0.1.3",
+    "grunt-mocha-test": "~0.7.0",
+    "through": "~2.3.4"
+  },
+  "dependencies": {
+    "slate-irc": "~0.5.0",
+    "irc": "~0.3.6"
+  }
+}

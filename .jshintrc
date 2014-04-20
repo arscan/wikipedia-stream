@@ -1,0 +1,29 @@
+{
+  "browser": false,
+  "jquery": false,
+  "node": true,
+  "curly": true,
+  "immed": true,
+  "noarg": true,
+  "boss": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "latedef": true,
+  "newcap": true,
+  "trailing": true,
+  "undef": true,
+  "unused": true,
+  "sub": true,
+  "predef": [
+    "test",
+    "suite",
+    "test",
+    "before",
+    "beforeEach",
+    "after",
+    "afterEach",
+    "setup",
+    "teardown",
+    "assert"
+  ]
+}
